@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class LastDigitFibTest {
+public class ModFibTest {
 
     @Before
     public void setUp() throws Exception {
@@ -16,7 +16,7 @@ public class LastDigitFibTest {
     }
 
     @Test
-    public void fib() {
-        Assert.assertEquals(9, LastDigitFib.fib(696352));
+    public void modDiv() {
+        Assert.assertEquals(1, ModFib.modDiv(10, 2));
     }
 }

@@ -1,11 +1,16 @@
+/**
+ *
+ * Finding last digit of Fibonacci number
+ */
 public class LastDigitFib {
+
     public static long fib(int n) {
-        long [] mas = new long[n+1];
-        mas[0] = 0;
-        mas[1] = 1;
+        int a = 0, b = 1, c = 1;
         for (int i = 2; i <= n; i++) {
-            mas[i] = mas[i-2] + mas[i-1];
+            c = (a + b) % 10;
+            a = b;
+            b = c;
         }
-        return mas[n];
+        return c;
     }
 }
