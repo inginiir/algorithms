@@ -1,5 +1,3 @@
-package com.company;
-
 public class Fibonacci {
 
     public static int fib(int n) {

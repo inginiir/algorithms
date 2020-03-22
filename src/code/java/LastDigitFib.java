@@ -1,5 +1,3 @@
-package com.company;
-
 public class LastDigitFib {
     public static long fib(int n) {
         long [] mas = new long[n+1];

@@ -1,4 +1,4 @@
-package com.company;
+
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -15,7 +15,7 @@ public class Main {
         for (String s : a) {
             integers.add(Integer.parseInt(s));
         }
-        //System.out.println(Fibonacci.fib(integers.get(0)));
+        System.out.println(Fibonacci.fib(integers.get(0)));
 
     }
 }
