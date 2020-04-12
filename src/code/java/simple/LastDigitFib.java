@@ -1,6 +1,8 @@
+package simple;
+
 /**
  *
- * Finding last digit of Fibonacci number
+ * Finding last digit of simple.Fibonacci number
  */
 public class LastDigitFib {
 

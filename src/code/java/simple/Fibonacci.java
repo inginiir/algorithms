@@ -1,5 +1,7 @@
+package simple;
+
 /**
- * Finding Fibonacci number in [1..40]
+ * Finding simple.Fibonacci number in [1..40]
  */
 public class Fibonacci {
 
